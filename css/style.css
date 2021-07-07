@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap");
+@import "RESET.css";
+
+/* screen */
+@import "screen/index.css";
+
+/* components */
+@import "components/status-bar.css";
+@import "components/nav-bar.css";
+
+body {
+  /* height: 120vh; */
+  background-color: rgb(225, 244, 255);
+  color: #2e363e;
+  font-family: "Open Sans", sans-serif;
+}
