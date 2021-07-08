@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Welcome to NAWA!!</title>
+    <title>NAWA - friends</title>
   </head>
   <body>
     <div class="status-bar">
@@ -23,6 +23,96 @@
       </div>
     </div>
 
+    <header class="screen-header">
+      <h1 class="screen-header__title">친구</h1>
+      <div class="screen-header__icons">
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="fas fa-music fa-lg"></i></span>
+        <span><i class="fas fa-cog fa-lg"></i></span>
+      </div>
+    </header>
+
+    <main class="friends-screen">
+      <div class="user-component">
+        <div class="user-component__column">
+          <img src="image/sibaface.png" />
+          <div class="user-component__text">
+            <h4 class="user-component__text__title">상민</h4>
+            <!-- <div class="user-component__text__subtitle"></div> -->
+          </div>
+        </div>
+        <div class="user-component__column"></div>
+      </div>
+
+      <div class="friend-screen__birthday">
+        <div class="friend-screen__birthday__header">
+          <span>생일인 친구</span>
+          <i class="fas fa-chevron-up fa-xs"></i>
+        </div>
+        <div class="friend-screen__birthday__main">
+          <div class="friend-screen__birthday__main__left">
+            <span><i class="fas fa-birthday-cake fa-lg"></i></span>
+            <span>친구의 생일을 확인해보세요!</span>
+          </div>
+          <span class="friend-screen__birthday__main__right__chevron"
+            ><i class="fas fa-chevron-right fa-xs"></i
+          ></span>
+        </div>
+      </div>
+
+      <div class="friend-screen__birthday">
+        <div class="friend-screen__birthday__header">
+          <span>친구목록</span>
+          <i class="fas fa-chevron-up fa-xs"></i>
+        </div>
+        <div class="friend-screen__birthday__main">
+          <div class="friend-screen__birthday__main__left">
+            <span><img src="image/catface.png" /></span>
+            <span>껄룩이</span>
+          </div>
+          <!-- <span class="friend-screen__birthday__main__right"
+            ><i class="fas fa-chevron-right fa-xs"></i
+          ></span> -->
+        </div>
+        <div class="friend-screen__birthday__main">
+          <div class="friend-screen__birthday__main__left">
+            <span><img src="image/snowsibaface.png" /></span>
+            <span>시바</span>
+          </div>
+          <span class="friend-screen__birthday__main__right">
+            좋니 - 윤종신 <i class="fas fa-play fa-xs"></i
+          ></span>
+        </div>
+        <div class="friend-screen__birthday__main">
+          <div class="friend-screen__birthday__main__left">
+            <span><img src="image/tigerface.png" /></i></span>
+            <span>호랭이</span>
+          </div>
+          <!-- <span class="friend-screen__birthday__main__right"
+            ><i class="fas fa-chevron-right fa-xs"></i
+          ></span> -->
+        </div>
+        <div class="friend-screen__birthday__main">
+          <div class="friend-screen__birthday__main__left">
+            <span><img src="image/jack.png" /></i></span>
+            <span>참새</span>
+          </div>
+          <!-- <span class="friend-screen__birthday__main__right"
+            ><i class="fas fa-chevron-right fa-xs"></i
+          ></span> -->
+        </div>
+        <div class="friend-screen__birthday__main">
+          <div class="friend-screen__birthday__main__left">
+            <span><img src="image/fishface.png" /></i></span>
+            <span>돌핀</span>
+          </div>
+          <!-- <span class="friend-screen__birthday__main__right"
+            ><i class="fas fa-chevron-right fa-xs"></i
+          ></span> -->
+        </div>
+      </div>
+    </main>
+
     <nav class="nav">
       <ul class="nav__list">
         <li class="nav__btn">
@@ -31,20 +121,20 @@
           </a>
         </li>
         <li class="nav__btn">
-          <a href="#">
-            <span></span>
+          <a class="nav__link" href="chats.html">
+            <span class="chats__badge">!</span>
             <i class="far fa-comment fa-2x"></i>
           </a>
         </li>
         <li class="nav__btn">
-          <a href="#">
+          <a class="nav__link" href="find.html">
             <i class="fas fa-search fa-2x"></i>
           </a>
         </li>
         <li class="nav__btn">
-          <a href="#">
+          <a class="nav__link" href="more.html">
             <i class="fas fa-ellipsis-h fa-2x"></i>
-            <span></span>
+            <span class="more__badge"></span>
           </a>
         </li>
       </ul>

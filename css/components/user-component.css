@@ -1,0 +1,19 @@
+.user-component__column {
+  margin-left: 15px;
+  margin-top: 10px;
+  display: flex;
+}
+
+.user-component__column img {
+  height: 60px;
+  width: 60px;
+  border-radius: 20px;
+}
+
+.user-component__text {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  font-size: 20px;
+  font-weight: 600;
+}

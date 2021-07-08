@@ -3,14 +3,17 @@
 
 /* screen */
 @import "screen/index.css";
+@import "screen/friends-screen.css";
 
 /* components */
 @import "components/status-bar.css";
 @import "components/nav-bar.css";
+@import "components/screen-header.css";
+@import "components/user-component.css";
 
 body {
-  /* height: 120vh; */
-  background-color: rgb(225, 244, 255);
-  color: #2e363e;
+  height: 100vh;
+
   font-family: "Open Sans", sans-serif;
+  color: #2e363e;
 }

@@ -1,7 +1,51 @@
 .nav {
+  position: fixed;
   bottom: 0;
+  background-color: rgb(217, 235, 247);
+  padding: 20px 50px;
+  box-sizing: border-box;
+  width: 100%;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-/* .nav a {
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__link {
   color: #2e363e;
-} */
+  position: relative;
+}
+
+.chats__badge {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: tomato;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: absolute;
+  left: 22px;
+  bottom: 19px;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.more__badge {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: tomato;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  position: absolute;
+  left: 32px;
+  bottom: 27px;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+}
