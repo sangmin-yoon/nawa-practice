@@ -1,0 +1,13 @@
+.bordertop-line {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  margin: 0px 15px;
+}
+
+.bordertop-line__text {
+  font-size: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+  opacity: 0.8;
+}
