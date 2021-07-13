@@ -10,6 +10,10 @@
 }
 
 .user-component__chats__sub {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 40px;
   margin-left: 10px;
   font-size: 20px;
 }
@@ -21,6 +25,34 @@
 }
 
 .user-component__chats h4 {
-  font-size: 10px;
+  font-size: 15px;
   opacity: 0.5;
+}
+
+.user-component__chats__right {
+  width: 30%;
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.user-component__chats__right span:first-child {
+  font-size: 15px;
+  opacity: 0.5;
+}
+
+.user-component__chats__right span:last-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: tomato;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
 }

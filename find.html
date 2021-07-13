@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>NAWA - chats</title>
+    <title>NAWA - Find</title>
   </head>
   <body>
     <div class="status-bar">
@@ -24,7 +24,7 @@
     </div>
 
     <header class="screen-header">
-      <h1 class="screen-header__title">채팅</h1>
+      <h1 class="screen-header__title">찾기</h1>
       <div class="screen-header__icons">
         <span><i class="fas fa-search fa-lg"></i></span>
         <span><i class="fas fa-music fa-lg"></i></span>
@@ -32,18 +32,53 @@
       </div>
     </header>
 
-    <main class="friends-screen">
-      <div class="user-component__chats">
-        <div class="user-component__column__left">
-          <span><img src="image/jack.png" /></span>
-          <div class="user-component__chats__sub">
-            <span>Jack</span>
-            <h4>짹짹</h4>
+    <main class="find-screen">
+      <div class="icon-row">
+        <div class="icon-row__icon">
+          <i class="fas fa-qrcode fa-2x"></i>
+          <span>QR code</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="far fa-address-book fa-2x"></i>
+          <span>Add by Contacts</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fas fa-fingerprint fa-2x"></i>
+          <span>Add by ID</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="far fa-envelope-open fa-2x"></i>
+          <span>Invite</span>
+        </div>
+      </div>
+
+      <div class="bordertop-line">
+        <div class="bordertop-line__text">
+          <span>추천친구</span>
+        </div>
+      </div>
+      <div class="find-recommend">
+        <span>추천친구가 없습니다.</span>
+      </div>
+      <div class="bordertop-line">
+        <div class="bordertop-line__text">
+          <span>오픈채팅</span>
+        </div>
+      </div>
+      <div class="find-openchat">
+        <div class="find-openchat__left">
+          <span>#ANIMAL</span>
+          <span>#귀여움#cute#可愛い</span>
+          <div class="find-openchat__left__sub">
+            <img src="image/jack.png" />
+            <span>802명 참가중</span>
+            <span>|</span>
+            <span>Active</span>
           </div>
         </div>
-        <div class="user-component__chats__right">
-          <span>21:51</span>
-          <span class="chats__main__badge">1</span>
+        <div class="find-openchat__right">
+          <img src="image/tigerface.png" />
+          <span>❤️999+</span>
         </div>
       </div>
     </main>
@@ -52,13 +87,13 @@
       <ul class="nav__list">
         <li class="nav__btn">
           <a class="nav__link" href="friends.html">
-            <i class="far fa-user fa-2x"></i>
+            <i class="fas fa-user fa-2x"></i>
           </a>
         </li>
         <li class="nav__btn">
           <a class="nav__link" href="chats.html">
             <span class="chats__badge">!</span>
-            <i class="fas fa-comment fa-2x"></i>
+            <i class="far fa-comment fa-2x"></i>
           </a>
         </li>
         <li class="nav__btn">
