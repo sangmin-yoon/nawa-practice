@@ -81,3 +81,36 @@
   width: 110px;
   border-radius: 20px;
 }
+.find-openchat__right {
+  position: relative;
+}
+.find-openchat__right > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  width: 50px;
+  height: 20px;
+  background-color: black;
+  opacity: 0.6;
+  font-size: 13px;
+  border-radius: 10px;
+  color: white;
+  font-weight: 100;
+}
+
+.find-openchat__right span {
+  margin-left: 3px;
+}
+
+.bolt-badge {
+  position: relative;
+  bottom: -40px;
+  left: -28px;
+  background-color: tomato;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+}

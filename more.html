@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>NAWA - Find</title>
+    <title>NAWA - More</title>
   </head>
   <body>
     <div class="status-bar">
@@ -25,7 +25,7 @@
     </div>
 
     <header class="screen-header">
-      <h1 class="screen-header__title">찾기</h1>
+      <h1 class="screen-header__title">더보기</h1>
       <div class="screen-header__icons">
         <span><i class="fas fa-search fa-lg"></i></span>
         <span><i class="fas fa-music fa-lg"></i></span>
@@ -33,56 +33,59 @@
       </div>
     </header>
 
-    <main class="find-screen">
-      <div class="icon-row">
-        <div class="icon-row__icon">
-          <i class="fas fa-qrcode fa-2x"></i>
-          <span>QR code</span>
+    <main class="more-screen">
+      <div class="wallet">
+        <div class="wallet-box__header">
+          <span>지갑 <i class="fas fa-chevron-right fa-xs"></i></span>
+          <div>
+            <span><i class="fas fa-shield-alt"></i>인증서</span>
+            <span>|</span>
+            <span><i class="fas fa-qrcode"></i>QR체크인</span>
+          </div>
         </div>
-        <div class="icon-row__icon">
-          <i class="far fa-address-book fa-2x"></i>
-          <span>Add by Contacts</span>
+        <div class="wallet-main">
+          <span class="wallet-main__text">
+            <i class="fas fa-syringe fa-xs"></i>
+            코로나19 잔여백신 예약·알림
+          </span>
+          <span><i class="fas fa-chevron-right fa-xs"></i></span>
         </div>
-        <div class="icon-row__icon">
-          <i class="fas fa-fingerprint fa-2x"></i>
-          <span>Add by ID</span>
+        <div class="wallet-pay">
+          <span><i class="fas fa-comment"></i>pay</span>
+          <span>100,000,000원</span>
         </div>
-        <div class="icon-row__icon">
-          <i class="far fa-envelope-open fa-2x"></i>
-          <span>Invite</span>
+        <div class="wallet-footer">
+          <div>
+            <span>송금</span>
+            <span>|</span>
+            <span>결제</span>
+            <span>|</span>
+            <span>자산</span>
+          </div>
+          <div>
+            <span><i class="fas fa-shopping-cart"></i>구매내역</span>
+          </div>
         </div>
       </div>
 
-      <div class="bordertop-line">
-        <div class="bordertop-line__text">
-          <span>추천친구</span>
+      <div class="more-main">
+        <div>
+          <i class="far fa-envelope fa-2x"></i>
+          <span>메일</span>
         </div>
-      </div>
-      <div class="find-recommend">
-        <span>추천친구가 없습니다.</span>
-      </div>
-      <div class="bordertop-line">
-        <div class="bordertop-line__text">
-          <span>오픈채팅</span>
+        <div>
+          <i class="far fa-envelope fa-2x"></i>
+          <span>캘린더</span>
         </div>
-      </div>
-      <div class="find-openchat">
-        <div class="find-openchat__left">
-          <span>#ANIMAL</span>
-          <span>#귀여움#cute#可愛い</span>
-          <div class="find-openchat__left__sub">
-            <img src="image/jack.png" />
-            <span>802명 참가중</span>
-            <span>|</span>
-            <span>Active</span>
-          </div>
+        <div>
+          <i class="far fa-envelope fa-2x"></i>
+          <span>서랍</span>
         </div>
-        <div class="find-openchat__right">
-          <img src="image/tigerface.png" />
-          <div>
-            <i class="fas fa-heart fa-xs"></i>
-            <span>999+</span>
-          </div>
+        <div>
+          <i class="far fa-envelope fa-2x"></i>
+          <span>이모티콘</span>
+        </div>
+     
         </div>
       </div>
     </main>
