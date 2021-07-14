@@ -59,6 +59,6 @@
 
 @keyframes 소용돌이 {
   100% {
-    
     transform: rotate(0.5turn);
   }
+}
