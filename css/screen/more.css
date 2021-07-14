@@ -78,10 +78,33 @@
   flex-direction: column;
   margin: 40px;
   align-items: center;
+  width: 100px;
 }
 
+.suggestions span,
 .more-main span {
   margin-top: 10px;
-  font-size: 15px;
+  font-size: 13px;
   opacity: 0.8;
+}
+
+.suggestions {
+  margin: 25px 40px;
+}
+
+.suggestions div {
+  width: 50px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.suggestions i {
+  color: white;
+  height: 50px;
+  background-color: rgb(250, 231, 57);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

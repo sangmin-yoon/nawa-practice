@@ -32,6 +32,7 @@
   color: white;
   font-size: 14px;
   font-weight: 600;
+  animation: spin 2s ease-in-out infinite;
 }
 
 .more__badge {
@@ -49,3 +50,15 @@
   font-size: 14px;
   font-weight: 600;
 }
+
+@keyframes spin {
+  50% {
+    transform: rotateY(360deg);
+  }
+}
+
+@keyframes 소용돌이 {
+  100% {
+    
+    transform: rotate(0.5turn);
+  }

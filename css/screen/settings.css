@@ -1,0 +1,11 @@
+.setting-head {
+  margin: 50px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.setting-head span:nth-child(2) {
+  font-size: 23px;
+  font-weight: bold;
+}

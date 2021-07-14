@@ -3,6 +3,7 @@
   margin: 10px 15px;
   font-size: 20px;
   font-weight: 500;
+  align-items: center;
 }
 .user-component__chats .user-component__column__left {
   display: flex;
