@@ -9,3 +9,32 @@
   font-size: 23px;
   font-weight: bold;
 }
+
+.setting-main__list {
+  margin: 0px 20px;
+}
+
+.setting-main__list > div {
+  font-size: 23px;
+  font-weight: 400;
+  margin: 30px 0px;
+}
+
+.setting-main__list span {
+  margin: 0px 15px;
+}
+
+.version {
+  display: flex;
+}
+
+.version > div:first-child {
+  width: 50%;
+}
+
+.version > div:last-child {
+  width: 50%;
+  opacity: 0.5;
+  display: flex;
+  justify-content: flex-end;
+}

@@ -4,6 +4,7 @@
   background-color: rgb(195, 247, 195);
   padding: 20px;
   box-sizing: border-box;
+  box-shadow: 0px 0px 30px rgb(169, 252, 210);
 }
 
 .wallet-box__header {

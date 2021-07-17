@@ -24,3 +24,41 @@
 .fa-birthday-cake {
   color: whitesmoke;
 }
+
+@keyframes hideSplashScreen {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+@keyframes air {
+  0% {
+    transform: translateX(0em);
+  }
+  100% {
+    transform: translateX(3em);
+  }
+}
+
+#splash-screen {
+  background-color: rgb(106, 200, 255);
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 122px;
+  animation: hideSplashScreen 0.4s ease-in-out forwards;
+  animation-delay: 1s;
+}
+
+#splash-screen i {
+  animation: air 0.4s ease-in-out forwards;
+  animation-delay: 1s;
+}
